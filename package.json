@@ -1,0 +1,17 @@
+{
+  "name": "n8n-workspace",
+  "version": "1.0.0",
+  "description": "Self-hosted n8n workflow automation setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "n8n",
+    "version": "node index.js --version"
+  },
+  "dependencies": {
+    "n8n": "^2.44.6"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}
